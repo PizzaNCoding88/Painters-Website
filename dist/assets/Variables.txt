@@ -1,0 +1,18 @@
+primary-color yellow: #FFE468
+
+button background color: #9dcf5e
+
+button border color: #98cc54
+
+navigation bar background: #272630
+
+icons color: #8CC641
+
+buttons hover box shadow: box-shadow: 0 8px 6px -6px #555;
+
+contact us button hover properties:
+
+color: #000;
+background-color: #8CC641;
+border-color: #8CC641;
+
