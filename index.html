@@ -21,7 +21,7 @@
                     <span class="w-8 h-1 bg-white block rounded mt-1 "></span>
                 </div>
             </div>
-            <div class="wrapper w-full bg-navigation-background absolute -top-48 left-0 transition-all duration-200">
+            <div class="wrapper w-full bg-navigation-background absolute -top-48 left-0 transition-all duration-500">
                 <div class="w-3/4 my-0 mx-auto">
                     <ul class="w-full text-left text-white text-l flex flex-col">
                         <li class="pt-4 hover:underline inline-block text-primary hover:cursor-pointer">Home</li>
@@ -71,15 +71,75 @@
     <section class="services w-4/5 mx-auto mt-24">
         <h2 class="text-2xl font-bold text-center">Professional Painting Services</h2>
         <div class=" mt-8 w-20 h-[1px] bg-button-background mx-auto"></div>
-        <div class="service mt-20">
-            <div class="shape w-16 h-16 bg-primary rotate-45 mx-auto">
-                <img src="https://img.icons8.com/external-kmg-design-glyph-kmg-design/32/9dcf5e/external-paint-brush-graphic-design-kmg-design-glyph-kmg-design-1.png" class="-rotate-45 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"/>
+        <div class="service mt-16" onmouseover="changeImage();" onmouseout="backToNormal();" >
+            <div class="peer shape w-20 h-20 bg-primary rotate-45 mx-auto">
+                <img src="https://img.icons8.com/external-kmg-design-glyph-kmg-design/32/9dcf5e/external-paint-brush-graphic-design-kmg-design-glyph-kmg-design-1.png" class="bg-image -rotate-45 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"/>
             </div>
-            <div class="container">
-                <p>Regular Painting</p>
+            <div class="rectangle mx-auto -mt-[2rem] h-52 bg-primary clip-path relative bg-service1-bg bg-center bg-cover background-sz bg-no-repeat duration-300 peer-hover:bg-bottom hover:bg-bottom group">
+                <p class="absolute top-1/2 left-1/2 -translate-x-1/2 text-xl font-bold ">Regular Painting</p>
+                <p class="opacity-text absolute top-3/4 left-1/2 -translate-x-1/2 text-l font-bold text-button-background opacity-0 group-hover:opacity-100 duration-500">View Details -></p>
             </div>
         </div>
 
+        <div class="service mt-16" >
+            <div class="peer shape-1 w-20 h-20 bg-primary rotate-45 mx-auto">
+                <img src="https://img.icons8.com/ios-glyphs/40/9dcf5e/roller-brush--v1.png" class="bg-image-1 -rotate-45 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"/>
+            </div>
+            <div class="rectangle mx-auto -mt-[2rem] h-52 bg-primary clip-path relative bg-service1-bg bg-center bg-cover background-sz bg-no-repeat duration-300 peer-hover:bg-bottom hover:bg-bottom group">
+                <p class="absolute top-1/2 left-1/2 -translate-x-1/2 text-xl font-bold ">Wall Painting</p>
+                <p class="opacity-text absolute top-3/4 left-1/2 -translate-x-1/2 text-l font-bold text-button-background opacity-0 group-hover:opacity-100 duration-500">View Details -></p>
+            </div>
+        </div>
+
+        <div class="service mt-16" >
+            <div class="peer shape-1 w-20 h-20 bg-primary rotate-45 mx-auto">
+                <img src="https://img.icons8.com/external-itim2101-fill-itim2101/45/9dcf5e/external-paint-brush-school-stationery-itim2101-fill-itim2101.png" class="bg-image-1 -rotate-45 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"/>
+            </div>
+            <div class="rectangle mx-auto -mt-[2rem] h-52 bg-primary clip-path relative bg-service1-bg bg-center bg-cover background-sz bg-no-repeat duration-300 peer-hover:bg-bottom hover:bg-bottom group">
+                <p class="absolute top-1/2 left-1/2 -translate-x-1/2 text-xl font-bold ">Floor Coating</p>
+                <p class="opacity-text absolute top-3/4 left-1/2 -translate-x-1/2 text-l font-bold text-button-background opacity-0 group-hover:opacity-100 duration-500">View Details -></p>
+            </div>
+        </div>
+
+        <div class="service mt-16" >
+            <div class="peer shape-1 w-20 h-20 bg-primary rotate-45 mx-auto">
+                <img src="https://img.icons8.com/ios-filled/36/9dcf5e/erase.png" class="bg-image-1 -rotate-45 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"/>
+            </div>
+            <div class="rectangle mx-auto -mt-[2rem] h-52 bg-primary clip-path relative bg-service1-bg bg-center bg-cover background-sz bg-no-repeat duration-300 peer-hover:bg-bottom hover:bg-bottom group">
+                <p class="absolute top-1/2 left-1/2 -translate-x-1/2 text-xl font-bold ">Graffiti Removal</p>
+                <p class="opacity-text absolute top-3/4 left-1/2 -translate-x-1/2 text-l font-bold text-button-background opacity-0 group-hover:opacity-100 duration-500">View Details -></p>
+            </div>
+        </div>
+
+        <div class="service mt-16" >
+            <div class="peer shape-1 w-20 h-20 bg-primary rotate-45 mx-auto">
+                <img src="https://img.icons8.com/ios-filled/36/9dcf5e/deodorant-spray.png" class="bg-image-1 -rotate-45 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"/>
+            </div>
+            <div class="rectangle mx-auto -mt-[2rem] h-52 bg-primary clip-path relative bg-service1-bg bg-center bg-cover background-sz bg-no-repeat duration-300 peer-hover:bg-bottom hover:bg-bottom group">
+                <p class="absolute top-1/2 left-1/2 -translate-x-1/2 text-xl font-bold ">Mildew Removal</p>
+                <p class="opacity-text absolute top-3/4 left-1/2 -translate-x-1/2 text-l font-bold text-button-background opacity-0 group-hover:opacity-100 duration-500">View Details -></p>
+            </div>
+        </div>
+
+        <div class="service mt-16 mb-32" >
+            <div class="peer shape-1 w-20 h-20 bg-primary rotate-45 mx-auto">
+                <img src="https://img.icons8.com/fluency-systems-filled/48/9dcf5e/city-buildings.png" class="bg-image-1 -rotate-45 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"/>
+            </div>
+            <div class="rectangle mx-auto -mt-[2rem] h-52 bg-primary clip-path relative bg-service1-bg bg-center bg-cover background-sz bg-no-repeat duration-300 peer-hover:bg-bottom hover:bg-bottom group">
+                <p class="absolute top-1/2 left-1/2 -translate-x-1/2 text-xl font-bold ">Window Washing</p>
+                <p class="opacity-text absolute top-3/4 left-1/2 -translate-x-1/2 text-l font-bold text-button-background opacity-0 group-hover:opacity-100 duration-500">View Details -></p>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-quote-bg bg-right bg-cover">
+        <form action="" class="w-10/12 mx-auto">
+            <h2>Get A Quote</h2>
+            <input type="text" placeholder="Your Name">
+            <input type="email" placeholder="Your Email">
+            <textarea name="Message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+
+        </form>
     </section>
 
     <script src="app.js"></script>
