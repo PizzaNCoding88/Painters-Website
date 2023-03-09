@@ -559,6 +559,10 @@ video {
   top: -12rem;
 }
 
+.bottom-0 {
+  bottom: 0px;
+}
+
 .left-0 {
   left: 0px;
 }
@@ -589,8 +593,17 @@ video {
   margin-bottom: 0px;
 }
 
+.my-8 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
 .-mt-\[2rem\] {
   margin-top: -2rem;
+}
+
+.mb-20 {
+  margin-bottom: 5rem;
 }
 
 .mb-32 {
@@ -621,12 +634,20 @@ video {
   margin-top: 6rem;
 }
 
+.mt-32 {
+  margin-top: 8rem;
+}
+
 .mt-4 {
   margin-top: 1rem;
 }
 
 .mt-8 {
   margin-top: 2rem;
+}
+
+.mt-20 {
+  margin-top: 5rem;
 }
 
 .block {
@@ -665,6 +686,10 @@ video {
   height: 25rem;
 }
 
+.h-\[31rem\] {
+  height: 31rem;
+}
+
 .h-\[40px\] {
   height: 40px;
 }
@@ -701,6 +726,10 @@ video {
   width: 2rem;
 }
 
+.w-\[25\%\] {
+  width: 25%;
+}
+
 .w-full {
   width: 100%;
 }
@@ -712,6 +741,11 @@ video {
 
 .-translate-y-1\/2 {
   --tw-translate-y: -50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.translate-y-\[4\.5rem\] {
+  --tw-translate-y: 4.5rem;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -812,6 +846,10 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-opacity-20 {
+  --tw-bg-opacity: 0.2;
+}
+
 .bg-about-bg {
   background-image: linear-gradient(to right, rgba(255, 255, 255, 0.2), rgba(255,255,255,0.3)),url(assets/img/about-bg.jpg);
 }
@@ -822,6 +860,10 @@ video {
 
 .bg-about2-bg {
   background-image: url(assets/img/about-2.jpg);
+}
+
+.bg-dedicated-team-member-1 {
+  background-image: url(assets/img/team-1.jpg);
 }
 
 .bg-hero-image {
@@ -836,8 +878,16 @@ video {
   background-image: url(assets/img/service-bg-1.jpg);
 }
 
+.bg-team-card-bg {
+  background-image: url(assets/img/team-bg.jpg);
+}
+
 .bg-cover {
   background-size: cover;
+}
+
+.bg-bottom {
+  background-position: bottom;
 }
 
 .bg-center {
@@ -927,6 +977,10 @@ video {
   text-align: center;
 }
 
+.align-bottom {
+  vertical-align: bottom;
+}
+
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -955,6 +1009,10 @@ video {
   text-transform: uppercase;
 }
 
+.leading-5 {
+  line-height: 1.25rem;
+}
+
 .tracking-tight {
   letter-spacing: -0.025em;
 }
@@ -979,6 +1037,11 @@ video {
   color: rgb(255 228 104 / var(--tw-text-opacity));
 }
 
+.text-slate-600 {
+  --tw-text-opacity: 1;
+  color: rgb(71 85 105 / var(--tw-text-opacity));
+}
+
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -1000,6 +1063,30 @@ video {
 
 .duration-500 {
   transition-duration: 500ms;
+}
+
+.duration-\[750ms\] {
+  transition-duration: 750ms;
+}
+
+.duration-\[500ms\] {
+  transition-duration: 500ms;
+}
+
+.duration-\[2500ms\] {
+  transition-duration: 2500ms;
+}
+
+.duration-\[250ms\] {
+  transition-duration: 250ms;
+}
+
+.duration-200 {
+  transition-duration: 200ms;
+}
+
+.ease-in {
+  transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
 }
 
 .clip-path{
@@ -1070,6 +1157,59 @@ video {
 .focus\:outline-none:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
+}
+
+.group:hover .group-hover\:bottom-0 {
+  bottom: 0px;
+}
+
+.group:hover .group-hover\:bottom-20 {
+  bottom: 5rem;
+}
+
+.group:hover .group-hover\:bottom-14 {
+  bottom: 3.5rem;
+}
+
+.group:hover .group-hover\:bottom-16 {
+  bottom: 4rem;
+}
+
+.group:hover .group-hover\:bottom-\[4\.5rem\] {
+  bottom: 4.5rem;
+}
+
+.group:hover .group-hover\:mt-20 {
+  margin-top: 5rem;
+}
+
+.group:hover .group-hover\:mt-\[80\%\] {
+  margin-top: 80%;
+}
+
+.group:hover .group-hover\:mt-\[95\%\] {
+  margin-top: 95%;
+}
+
+.group:hover .group-hover\:mt-\[100\%\] {
+  margin-top: 100%;
+}
+
+.group:hover .group-hover\:mt-\[120\%\] {
+  margin-top: 120%;
+}
+
+.group:hover .group-hover\:mt-\[110\%\] {
+  margin-top: 110%;
+}
+
+.group:hover .group-hover\:h-full {
+  height: 100%;
+}
+
+.group:hover .group-hover\:-translate-y-\[0\.1rem\] {
+  --tw-translate-y: -0.1rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .group:hover .group-hover\:opacity-100 {
