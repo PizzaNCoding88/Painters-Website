@@ -662,6 +662,10 @@ video {
   margin-top: 2rem;
 }
 
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
 .block {
   display: block;
 }
@@ -902,8 +906,16 @@ video {
   background-image: url(assets/img/team-bg.jpg);
 }
 
+.bg-testimonials-bg {
+  background-image: url(assets/img/testimonial.jpg);
+}
+
 .bg-cover {
   background-size: cover;
+}
+
+.bg-contain {
+  background-size: contain;
 }
 
 .bg-bottom {
@@ -916,6 +928,42 @@ video {
 
 .bg-right {
   background-position: right;
+}
+
+.bg-left {
+  background-position: left;
+}
+
+.bg-\[50\%\] {
+  background-position: 50%;
+}
+
+.bg-\[10\%\] {
+  background-position: 10%;
+}
+
+.bg-\[100\%\] {
+  background-position: 100%;
+}
+
+.bg-\[1\%\] {
+  background-position: 1%;
+}
+
+.bg-\[0\.5\%\] {
+  background-position: 0.5%;
+}
+
+.bg-\[10rem\] {
+  background-position: 10rem;
+}
+
+.bg-\[1rem\] {
+  background-position: 1rem;
+}
+
+.bg-\[0\.01rem\] {
+  background-position: 0.01rem;
 }
 
 .bg-no-repeat {
@@ -987,6 +1035,10 @@ video {
 
 .pt-8 {
   padding-top: 2rem;
+}
+
+.pt-16 {
+  padding-top: 4rem;
 }
 
 .text-left {
@@ -1063,6 +1115,16 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.text-gray-500 {
+  --tw-text-opacity: 1;
+  color: rgb(107 114 128 / var(--tw-text-opacity));
+}
+
+.text-gray-600 {
+  --tw-text-opacity: 1;
+  color: rgb(75 85 99 / var(--tw-text-opacity));
+}
+
 .opacity-0 {
   opacity: 0;
 }
@@ -1083,6 +1145,14 @@ video {
 
 .duration-\[250ms\] {
   transition-duration: 250ms;
+}
+
+.duration-700 {
+  transition-duration: 700ms;
+}
+
+.duration-\[850ms\] {
+  transition-duration: 850ms;
 }
 
 .ease-in {
@@ -1120,6 +1190,81 @@ video {
 .placeholder\:text-neutral-900::placeholder {
   --tw-text-opacity: 1;
   color: rgb(23 23 23 / var(--tw-text-opacity));
+}
+
+.before\:absolute::before {
+  content: var(--tw-content);
+  position: absolute;
+}
+
+.before\:-top-8::before {
+  content: var(--tw-content);
+  top: -2rem;
+}
+
+.before\:top-8::before {
+  content: var(--tw-content);
+  top: 2rem;
+}
+
+.before\:block::before {
+  content: var(--tw-content);
+  display: block;
+}
+
+.before\:content-\[\'\"\'\]::before {
+  --tw-content: '"';
+  content: var(--tw-content);
+}
+
+.before\:content-\[\'\"\"\'\]::before {
+  --tw-content: '""';
+  content: var(--tw-content);
+}
+
+.before\:content-\[\'\'\]::before {
+  --tw-content: '';
+  content: var(--tw-content);
+}
+
+.before\:content-\[\'HEY\'\]::before {
+  --tw-content: 'HEY';
+  content: var(--tw-content);
+}
+
+.before\:content-\[\'\&\#10077\;\'\]::before {
+  --tw-content: '&#10077;';
+  content: var(--tw-content);
+}
+
+.before\:content-\[\&\#10077\;\]::before {
+  --tw-content: &#10077;;
+  content: var(--tw-content);
+}
+
+.before\:content-\[\'none\'\]::before {
+  --tw-content: 'none';
+  content: var(--tw-content);
+}
+
+.before\:content-\[\'\'\'\'\]::before {
+  --tw-content: '''';
+  content: var(--tw-content);
+}
+
+.before\:content-\[\'HELLO\'\]::before {
+  --tw-content: 'HELLO';
+  content: var(--tw-content);
+}
+
+.before\:content-\[\]::before {
+  --tw-content: ;
+  content: var(--tw-content);
+}
+
+.before\:content-\[NONE\]::before {
+  --tw-content: NONE;
+  content: var(--tw-content);
 }
 
 .hover\:cursor-pointer:hover {
