@@ -547,6 +547,10 @@ video {
   }
 }
 
+.fixed {
+  position: fixed;
+}
+
 .absolute {
   position: absolute;
 }
@@ -571,6 +575,10 @@ video {
   left: 50%;
 }
 
+.left-\[20\%\] {
+  left: 20%;
+}
+
 .top-1\/2 {
   top: 50%;
 }
@@ -581,6 +589,14 @@ video {
 
 .top-3\/4 {
   top: 75%;
+}
+
+.top-\[40\%\] {
+  top: 40%;
+}
+
+.z-50 {
+  z-index: 50;
 }
 
 .mx-auto {
@@ -602,12 +618,12 @@ video {
   margin-top: -2rem;
 }
 
-.mb-20 {
-  margin-bottom: 5rem;
-}
-
 .mb-32 {
   margin-bottom: 8rem;
+}
+
+.mb-36 {
+  margin-bottom: 9rem;
 }
 
 .mb-4 {
@@ -644,10 +660,6 @@ video {
 
 .mt-8 {
   margin-top: 2rem;
-}
-
-.mt-20 {
-  margin-top: 5rem;
 }
 
 .block {
@@ -866,6 +878,14 @@ video {
   background-image: url(assets/img/team-1.jpg);
 }
 
+.bg-dedicated-team-member-2 {
+  background-image: url(assets/img/team-2.jpg);
+}
+
+.bg-dedicated-team-member-3 {
+  background-image: url(assets/img/team-3.jpg);
+}
+
 .bg-hero-image {
   background-image: linear-gradient(to right, rgba(255, 255, 255, 0.4), rgba(255,255,255,0.5)), url(assets/img/hero.jpg);
 }
@@ -977,10 +997,6 @@ video {
   text-align: center;
 }
 
-.align-bottom {
-  vertical-align: bottom;
-}
-
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -1065,24 +1081,8 @@ video {
   transition-duration: 500ms;
 }
 
-.duration-\[750ms\] {
-  transition-duration: 750ms;
-}
-
-.duration-\[500ms\] {
-  transition-duration: 500ms;
-}
-
-.duration-\[2500ms\] {
-  transition-duration: 2500ms;
-}
-
 .duration-\[250ms\] {
   transition-duration: 250ms;
-}
-
-.duration-200 {
-  transition-duration: 200ms;
 }
 
 .ease-in {
@@ -1159,44 +1159,8 @@ video {
   outline-offset: 2px;
 }
 
-.group:hover .group-hover\:bottom-0 {
-  bottom: 0px;
-}
-
-.group:hover .group-hover\:bottom-20 {
-  bottom: 5rem;
-}
-
-.group:hover .group-hover\:bottom-14 {
-  bottom: 3.5rem;
-}
-
-.group:hover .group-hover\:bottom-16 {
-  bottom: 4rem;
-}
-
 .group:hover .group-hover\:bottom-\[4\.5rem\] {
   bottom: 4.5rem;
-}
-
-.group:hover .group-hover\:mt-20 {
-  margin-top: 5rem;
-}
-
-.group:hover .group-hover\:mt-\[80\%\] {
-  margin-top: 80%;
-}
-
-.group:hover .group-hover\:mt-\[95\%\] {
-  margin-top: 95%;
-}
-
-.group:hover .group-hover\:mt-\[100\%\] {
-  margin-top: 100%;
-}
-
-.group:hover .group-hover\:mt-\[120\%\] {
-  margin-top: 120%;
 }
 
 .group:hover .group-hover\:mt-\[110\%\] {
@@ -1205,11 +1169,6 @@ video {
 
 .group:hover .group-hover\:h-full {
   height: 100%;
-}
-
-.group:hover .group-hover\:-translate-y-\[0\.1rem\] {
-  --tw-translate-y: -0.1rem;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .group:hover .group-hover\:opacity-100 {
