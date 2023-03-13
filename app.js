@@ -23,3 +23,17 @@ function backToNormal(){
     smallRectangle.style.backgroundColor = "#ffe468";
     opacityText.style.opacity = "0";
 };
+
+//testimonial scroll
+
+const previousBtn = document.querySelector("#previous");
+const nextBtn = document.querySelector("#next");
+const testimonialOne = document.querySelector("#testimonial-1");
+const testimonialTwo = document.querySelector("#testimonial-2");
+
+nextBtn.addEventListener("click", () =>{
+    if (testimonialOne.classList.contains("active")){
+        testimonialOne.classList.remove("active");
+        testimonialTwo.classList.add("active");
+    }
+});
