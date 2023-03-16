@@ -15,21 +15,21 @@
     </a>
 
     <section class="bg-navigation-background w-full fixed z-50">
-        <nav class="navigaton-bar my-0 mx-auto pt-4 pb-4 justify-between items-center flex flex-row w-4/5">
+        <nav class="navigaton-bar my-0 mx-auto pt-4 pb-4 justify-between items-center flex flex-row w-4/5 lg:justify-between">
             <div class="logo flex flex-row items-center">
                 <img src="https://img.icons8.com/material-rounded/48/8CC641/roller-brush.png" alt="logo" class="">
                 <p class="uppercase text-primary text-3xl pl-4 font-bold tracking-tight">Painter</p>
             </div>
-            <div class=" relative burger-menu w-12 h-10 border-2 rounded-xl border-white cursor-pointer items-center">
+            <div class=" relative burger-menu w-12 h-10 border-2 rounded-xl border-white cursor-pointer items-center lg:hidden">
                 <div class="mt-2 absolute left-1/2 -translate-x-1/2 ">
                     <span class="w-8 h-1 bg-white block rounded"></span>
                     <span class="w-8 h-1 bg-white block rounded mt-1 "></span>
                     <span class="w-8 h-1 bg-white block rounded mt-1 "></span>
                 </div>
             </div>
-            <div class="wrapper w-full bg-navigation-background absolute -top-48 left-0 transition-all duration-500">
-                <div class="w-3/4 my-0 mx-auto">
-                    <ul class="w-full text-left text-white text-l flex flex-col">
+            <div class="wrapper w-full bg-navigation-background absolute -top-48 left-0 transition-all duration-500 lg:relative lg:top-0 lg:w-auto lg:ml-auto">
+                <div class="w-3/4 my-0 mx-auto lg:w-auto lg:ml-auto">
+                    <ul class="w-full text-left text-white text-l flex flex-col lg:flex-row lg:gap-4 lg:text-xl lg:font-bold">
                         <li class="pt-4 hover:underline inline-block text-primary hover:cursor-pointer">Home</li>
                         <li class="pt-4 hover:underline inline-block hover:cursor-pointer">About</li>
                         <li class="pt-4 hover:underline inline-block hover:cursor-pointer">Services</li>
