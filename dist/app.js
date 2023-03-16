@@ -74,3 +74,21 @@ previousBtn.addEventListener("click", () =>{
         testimonialTwo.classList.remove("active");
     }
 });
+
+
+// HIDE BUTTON
+
+topBtn = document.querySelector("#topBtn");
+
+var myScrollFunc = function() {
+  var y = window.scrollY;
+  if (y >= 250) {
+    topBtn.classList.remove("opacity-0");
+    topBtn.classList.add("opacity-100");
+  } else {
+    topBtn.classList.add("opacity-0");
+    topBtn.classList.remove("opacity-100");
+  }
+};
+
+window.addEventListener("scroll", myScrollFunc);
