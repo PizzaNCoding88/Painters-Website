@@ -20,6 +20,7 @@
                 <img src="https://img.icons8.com/material-rounded/48/8CC641/roller-brush.png" alt="logo" class="">
                 <p class="uppercase text-primary text-3xl pl-4 font-bold tracking-tight">Painter</p>
             </div>
+
             <div class=" relative burger-menu w-12 h-10 border-2 rounded-xl border-white cursor-pointer items-center lg:hidden">
                 <div class="mt-2 absolute left-1/2 -translate-x-1/2 ">
                     <span class="w-8 h-1 bg-white block rounded"></span>
@@ -27,27 +28,41 @@
                     <span class="w-8 h-1 bg-white block rounded mt-1 "></span>
                 </div>
             </div>
-            <div class="wrapper w-full bg-navigation-background absolute -top-48 left-0 transition-all duration-500 lg:relative lg:top-0 lg:w-auto lg:ml-auto">
-                <div class="w-3/4 my-0 mx-auto lg:w-auto lg:ml-auto">
+
+            <div class="wrapper w-full bg-navigation-background absolute -top-48 left-0 transition-all duration-500 lg:relative lg:top-0 lg:w-auto lg:ml-auto ">
+                <div class="w-3/4 my-0 mx-auto lg:w-auto lg:ml-auto lg:flex lg:flex-row lg:items-center">
                     <ul class="w-full text-left text-white text-l flex flex-col lg:flex-row lg:gap-4 lg:text-xl lg:font-bold">
                         <li class="pt-4 hover:underline inline-block text-primary hover:cursor-pointer">Home</li>
                         <li class="pt-4 hover:underline inline-block hover:cursor-pointer">About</li>
                         <li class="pt-4 hover:underline inline-block hover:cursor-pointer">Services</li>
                         <li class="pt-4 hover:underline inline-block pb-4 hover:cursor-pointer">Contact</li>
                     </ul>
+                    
+                    <div class="w-2 h-16 hidden md:hidden lg:inline-block bg-primary ml-8"></div>
+
+                    <div class=" hidden md:hidden lg:flex lg:flex-row lg:items-center ml-4 lg:h-10 lg:w-full">
+                        <img src="https://img.icons8.com/material/30/9dcf5e/smartphone.png"/>
+                        <div class="ml-4">
+                            <p class="text-primary font-bold">Call Now</p>
+                            <p class="text-white font-bold">+012 345 6789</p>
+                        </div>
+                    </div>
                 </div>
+                
+    
             </div>
+
         </nav>
     </section>
 
     <section id="top">
-        <div class="hero bg-hero-image bg-right-top bg-cover p-1 pt-20">
-            <div class="w-4/5 mx-auto">
-                <h1 class="pt-20 text-center text-5xl font-bold text-gray-900">We Bring Your Home To Lively Colors</h1>
-                <p class="mt-8 text-gray-900">Nonumy diam dolores est ipsum diam amet lorem clita clita sit eirmod duo clita dolore dolor ut diam diam justo sed est</p>
-                <div class="pt-4 mx-auto mt-8 mb-8 flex justify-around">
+        <div class="hero bg-hero-image bg-right-top bg-cover p-1 pt-20 lg:bg-hero-image-lg lg:pt-48 ">
+            <div class="w-4/5 mx-auto lg:w-[45%] lg:ml-[10%]">
+                <h1 class="pt-20 text-center text-5xl font-bold text-gray-900 lg:text-7xl lg:text-left lg:leading-[5rem]">We Bring Your Home To Lively Colors</h1>
+                <p class="mt-8 text-gray-900 lg:text-2xl">Nonumy diam dolores est ipsum diam amet lorem clita clita sit eirmod duo clita dolore dolor ut diam diam justo sed est</p>
+                <div class="pt-4 mx-auto mt-8 mb-8 flex justify-around lg:justify-start">
                     <button class="bg-button-background py-3 px-6 rounded-full text-white">Get A Quote</button>
-                    <button class="bg-transparent py-3 px-6 rounded-full text-contact-us-background-color border-button-background border-[1px]">Contact Us</button>
+                    <button class="bg-transparent py-3 px-6 rounded-full text-contact-us-background-color border-button-background border-[1px] lg:ml-8">Contact Us</button>
                 </div>
             </div>
         </div>
