@@ -1,2 +1,2 @@
 # Painters-Website
-A dummy website using Tailwind for the first time
+A one page dummy website using Tailwind for the first time
