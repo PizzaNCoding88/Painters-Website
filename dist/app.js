@@ -1,9 +1,21 @@
 const burgerMenu = document.querySelector(".burger-menu");
 const sideMenu = document.querySelector(".wrapper");
+const li = document.querySelectorAll("#links");
 
 burgerMenu.addEventListener("click" , () => {
     sideMenu.classList.toggle("top-20");
 });
+
+
+li.forEach(collapse);
+
+function collapse(el){
+    el.addEventListener("click", () =>{
+        sideMenu.classList.toggle("top-20");
+    });
+};
+    
+
 
 // Rectangles hover
 
